@@ -21,41 +21,85 @@
         </form>
     </header>
 
+    <nav>
+        <ul>
+            <li><b>-- Suscripción --</b></li>
+        </ul>
+    </nav>
+
     <main class="container">
 
         <div class="box">
 
-            <tr class="LoyaltyCreateUserDetailsRow">
-                <td colspan="1"></td>
-                <td colspan="1"><label for="txtFirstName" id="lblFirstName" class="LoyaltyCreateUserText">* Nombre</label></td>
-                <td colspan="1"><input name="txtFirstName" type="text" maxlength="50" id="txtFirstName" tabindex="1" class="Textbox"></td>
-                <td colspan="1"></td>
-            </tr>
+            <p> Para asociarse a MovieClub deberá completar los datos del formulario y presionar
+                registrarse.<br>Recibirá un mail a la direccion ingresada, para activar su cuenta.</p>
+
+            <td colspan="4">
+                <hr width="100%" size="1">
+            </td>
+
+            <p>Nombre: <input name="textos" type="text" maxlength="50" class="Textbox"></p>
+            <p>Apellido: <input name="textos" type="text" maxlength="50" class="Textbox"></p>
+            <p>Nro DNI: <input name="textos" type="text" maxlength="50" class="Textbox"></p>
+            <p>Fecha de nacimiento: <input name="fecha" type="date" maxlength="50" class="Datebox"></p>
+
+            <td colspan="4">
+                <hr width="100%" size="1">
+            </td>
+
+            <p>Direccion: <input name="textos" type="text" maxlength="50" class="Textbox"></p>
+            <p>Ciduad: <input name="textos" type="text" maxlength="50" class="Textbox"></p>
+            <p>Provincia: <select name="provincias" class="TextDropDown">
+                    <option value="">Provincia</option>
+                    <option value="Buenos Aires">Buenos Aires</option>
+                    <option value="CABA">CABA</option>
+                    <option value="Mendoza">Mendoza</option>
+                    <option value="Neuquen">Neuquén</option>
+                    <option value="Santa Fe">Santa Fe</option>
+                    <option value="Catamarca">Catamarca</option>
+                    <option value="Chaco">Chaco</option>
+                    <option value="Chubut">Chubut</option>
+                    <option value="Cordoba">Córdoba</option>
+                    <option value="Corrientes">Corrientes</option>
+                    <option value="Entre Rios">Entre Ríos</option>
+                    <option value="Formosa">Formosa</option>
+                    <option value="Jujuy">Jujuy</option>
+                    <option value="La Pampa">La Pampa</option>
+                    <option value="La Rioja">La Rioja</option>
+                    <option value="Misiones">Misiones</option>
+                    <option value="Rio Negro">Río Negro</option>
+                    <option value="Salta">Salta</option>
+                    <option value="San Juan">San Juan</option>
+                    <option value="San Luis">San Luis</option>
+                    <option value="Santa Cruz">Santa Cruz</option>
+                    <option value="Santiago del Estero">Santiago del Estero</option>
+                    <option value="Tierra del Fuego">Tierra del Fuego</option>
+                    <option value="Tucuman">Tucumán</option>
+                </select>
+            <p>Codigo Postal: <input name="textos" type="text" maxlength="50" class="Textbox"></p>
+
+            <td colspan="4">
+                <hr width="100%" size="1">
+            </td>
+
+            <p>Teléfono: <input name="textos" type="text" maxlength="50" class="Textbox"></p>
+            <p>Direccion de eMail: <input name="textos" type="text" maxlength="50" class="Textbox"></p>
+            <p>Contacto: <input name="check" type="checkbox">No deseo recibir informaciones</p>
             
-            <tr class="LoyaltyCreateUserDetailsRow">
-                <td colspan="1" style="HEIGHT: 23px"></td>
-                <td colspan="1" style="HEIGHT: 23px"><label for="txtLastName" id="lblLastName" class="LoyaltyCreateUserText">* Apellido</label></td>
-                <td colspan="1" style="HEIGHT: 23px"><input name="txtLastName" type="text" maxlength="50" id="txtLastName" tabindex="1" class="Textbox"></td>
-                <td colspan="1" style="HEIGHT: 23px"></td>
-            </tr>
+            <td colspan="4">
+                <hr width="100%" size="1">
+            </td>
             
-            <tr class="LoyaltyCreateUserDetailsRow">
-                <td colspan="1"></td>
-                <td colspan="1"><label for="txtPhone3" id="lblPhone3" class="LoyaltyCreateUserText">* Nro DNI</label></td>
-                <td colspan="1"><input name="txtPhone3" type="text" maxlength="30" id="txtPhone3" tabindex="1" class="Textbox"></td>
-                <td colspan="1"></td>
-            </tr>
-            
-            <tr class="LoyaltyCreateUserDetailsRow">
-                <td colspan="1"></td>
-                <td colspan="1"><label for="cboDOB1" id="lblDateOfBirth" class="LoyaltyCreateUserText">* Fecha de nacimiento</label></td>
-                <td colspan="1"><input type="date">
-                <td colspan="1"></td>
-            </tr>
+            <p>Clave: (al menos 8 caracteres alfanumericos) <input name="textos" type="password" maxlength="50" class="Textbox"></p>
+            <p>Re ingrese la clave: <input name="textos" type="password" maxlength="50" class="Textbox"></p>
+        
+            <input type="image" name="ibtnSubmit" class="ImageSignUp" src="https://ticketing.cinepolis.com.ar/(X(1)S(wkbi1kyy3rhgyv45gg4yps45))/Images/SignUp.gif">
+
         </div>
 
 
     </main>
+
     <footer>
 
         <div class="footerWrapper">

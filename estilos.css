@@ -110,10 +110,10 @@ header {
 
 .box {
     width: 950px;
-    padding: 20px;
+    padding: 150px;
     background-color: #ffffff;
-    margin: 10px;
-    text-align: center;
+    margin: 20px;
+    text-align: start;
 }
 
 h3 {
@@ -201,4 +201,9 @@ li {
 
 .lista-color {
     color: #FF5773;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
 }

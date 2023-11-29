@@ -11,30 +11,5 @@
     </ul>
 </nav>-->
 
-<tr class="LoyaltyCreateUserDetailsRow">
-    <td colspan="1"></td>
-    <td colspan="1"><label for="txtFirstName" id="lblFirstName" class="LoyaltyCreateUserText">* Nombre</label></td>
-    <td colspan="1"><input name="txtFirstName" type="text" maxlength="50" id="txtFirstName" tabindex="1" class="Textbox"></td>
-    <td colspan="1"></td>
-</tr>
 
-<tr class="LoyaltyCreateUserDetailsRow">
-    <td colspan="1" style="HEIGHT: 23px"></td>
-    <td colspan="1" style="HEIGHT: 23px"><label for="txtLastName" id="lblLastName" class="LoyaltyCreateUserText">* Apellido</label></td>
-    <td colspan="1" style="HEIGHT: 23px"><input name="txtLastName" type="text" maxlength="50" id="txtLastName" tabindex="1" class="Textbox"></td>
-    <td colspan="1" style="HEIGHT: 23px"></td>
-</tr>
-
-<tr class="LoyaltyCreateUserDetailsRow">
-    <td colspan="1"></td>
-    <td colspan="1"><label for="txtPhone3" id="lblPhone3" class="LoyaltyCreateUserText">* Nro DNI</label></td>
-    <td colspan="1"><input name="txtPhone3" type="text" maxlength="30" id="txtPhone3" tabindex="1" class="Textbox"></td>
-    <td colspan="1"></td>
-</tr>
-
-<tr class="LoyaltyCreateUserDetailsRow">
-    <td colspan="1"></td>
-    <td colspan="1"><label for="cboDOB1" id="lblDateOfBirth" class="LoyaltyCreateUserText">* Fecha de nacimiento</label></td>
-    <td colspan="1"><input type="date">
-    <td colspan="1"></td>
-</tr>
+<input type="date">
